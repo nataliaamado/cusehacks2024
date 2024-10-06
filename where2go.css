@@ -1,0 +1,125 @@
+<style>
+.header {
+    height:200px;
+    top:0;
+    left:0;
+    width:100%;
+    max-width: fit-content;
+    position: sticky;
+    background: white;
+    text-align: right;
+    padding: 10px 16px;
+}
+
+
+.left_sidenav {
+    height: 1000px;
+    width: 15%;
+    position: fixed;
+    top: 125px;
+    left: 0;
+    bottom: 0;
+    background-color: rgb(255, 233, 233);
+    overflow-x: hidden;
+    padding: 10px;
+
+}
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.right_sidenav {
+    height: 1000px;
+    width: 20%;
+    position: fixed;
+    top: 125px;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(255, 233, 233);
+    overflow-x: hidden;
+    padding: 10px;
+
+}
+
+.center_nav{
+    background-color: gray;
+    position: fixed;
+    bottom: 0;
+    top: 125px;
+    left: 125px;
+}
+  
+
+.footer {
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+
+    background-color: rgb(255, 194, 82);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+/*RSS Feed that displays every event in the SU and CNY area - 
+nothing outside of there we want you to enjoy CNY
+I want to focus on CNY and show others the beauty of this area!
+*/
+
+.recommended-events{
+    font-size: 24;
+    background-color: aquamarine;
+    padding-inline: 20px;
+}
+
+
+.rss{
+}
+
+
+.map {
+    height: 100%;
+
+}
+
+
+
+body {
+    font-family: :Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    margin: 4;
+}
+
+h1 {
+    text-align: center;
+    color: #000E54;
+    font-size: 46;
+    font: Verdana;
+}
+
+h2 {
+    font: Verdana;
+    color: #000E54;
+    text-align: center;
+}
+
+p {
+    font: sans-serif;
+    text-align: center;
+    font-size: 40;
+    color: #000E54;
+}
+
+

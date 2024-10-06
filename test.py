@@ -1,8 +1,12 @@
 import math
+import pandas as pd
+import feedparser
 
-def add(a: int, b: int) -> int:
-    c = a+b
-    print(c)
-    return c
+CampusEvents = feedparser.parse('events.rss')
+ce_title = CampusEvents.feed.title
+ce_link = CampusEvents.feed.link
+ce_description = CampusEvents.feed.description
+print(ce_title)
+print(ce_link)
+print(ce_description)
 
-add(311,7)

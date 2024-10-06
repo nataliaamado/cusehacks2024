@@ -1,0 +1,78 @@
+.header {
+    background-color:  rgb(180, 180, 235);
+    top: 100%;
+    left: 100%;
+    right: 100%;
+    width: 100%;
+    overflow: hidden;
+    height: 200px;
+    text-align: center;
+    position: fixed top;
+    text-align: center;
+}
+
+
+.row:after{
+    content: "";
+    float: center;
+    background-color: aliceblue;
+    height: 100px;
+    display: grid;
+    text-align: center;
+}
+
+
+.recommendations {
+    background-color: rgb(192, 180, 202);
+    position: scroll;
+    width: 100%;
+    height: 1000px;
+    overflow: hidden;
+    padding-bottom: 2000px;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+
+
+.footer {
+    position: fixed bottom;
+    left:0;
+    right: 0;
+    bottom: 100%;
+    padding: 30px;
+    overflow: hidden;
+    background-color: rgb(224, 222, 255);
+    text-align: center;
+}
+
+
+
+body {
+    background-color: rgb(192, 180, 202);
+    font-family: :Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #000E54;
+    font-size: 56;
+    font: Verdana;
+}
+
+h2 {
+    font: Verdana;
+    color: #000E54;
+    text-align: center;
+}
+
+p {
+    font: sans-serif;
+    text-align: center;
+    font-size: 40;
+    color: #000E54;
+}
+
+
