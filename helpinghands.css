@@ -5,9 +5,9 @@
     right: 100%;
     width: 100%;
     overflow: hidden;
-    height: 200px;
+    height: 160px;
     text-align: center;
-    position: fixed top;
+    position: center;
     text-align: center;
 }
 
@@ -20,7 +20,6 @@
     display: grid;
     text-align: center;
 }
-
 
 .recommendations {
     background-color: rgb(192, 180, 202);
@@ -36,17 +35,6 @@
 
 
 
-.footer {
-    position: fixed bottom;
-    left:0;
-    right: 0;
-    bottom: 100%;
-    padding: 30px;
-    overflow: hidden;
-    background-color: rgb(224, 222, 255);
-    text-align: center;
-}
-
 
 
 body {
@@ -58,7 +46,7 @@ body {
 h1 {
     text-align: center;
     color: #000E54;
-    font-size: 56;
+    font-size: 70;
     font: Verdana;
 }
 
@@ -71,8 +59,10 @@ h2 {
 p {
     font: sans-serif;
     text-align: center;
-    font-size: 40;
+    font-size: 60;
     color: #000E54;
 }
+
+
 
 
